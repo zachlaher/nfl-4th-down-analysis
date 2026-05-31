@@ -1,0 +1,16 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj.user
+
+# Large data files — season play CSVs are too big for GitHub
+data/*_plays.csv
+
+# Output plots (generated, not source)
+output/*.png
+output/*.csv
+
+# OS
+Thumbs.db
+.DS_Store
